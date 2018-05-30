@@ -1,0 +1,20 @@
+html { 
+    background: url(../img/img1.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#gaze {
+    z-index: 999;
+    border: 20px yellow solid;
+    box-shadow: 5px 10px 10px rgba(255, 255, 255, .5);
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;    
+    position: fixed;
+    top: 100;
+    left: 300;
+}
